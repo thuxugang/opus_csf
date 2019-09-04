@@ -9,7 +9,7 @@ OPUS-CSF is a fast and accurate scoring function that can be used to distinguish
 ### Reference 
 ```bibtex
 @article{xu2018opus,
-  title={OPUS-CSF: AC-atom-based scoring function for ranking protein structural models},
+  title={OPUS-CSF: A C-atom-based scoring function for ranking protein structural models},
   author={Xu, Gang and Ma, Tianqi and Zang, Tianwu and Wang, Qinghua and Ma, Jianpeng},
   journal={Protein Science},
   volume={27},
@@ -61,7 +61,7 @@ The results of OPUS-CSF, OPUS-SSF and OPUS-DASF on 5 decoy sets. The numbers of 
 
 ||TOTAL|OPUS-CSF|OPUS-SSF|OPUS-DASF|
 |:----:|:----:|:----:|:----:|:----:|
-|3DRobot|200|189(−4.86)	|186(-5.24)|183 (-5.55)|
+|3DRobot|200|189 (−4.86)	|186 (-5.24)|183 (-5.55)|
 |Rosetta (3DR)|58|	51 (−3.83)	|53 (-3.98)	|52 (-3.95)|
 |I-Tasser (3DR)|56|	36 (−3.47)	|38 (-3.81)	|38 (-3.40)|
 |Rosetta|	58|	47 (−5.43)|	52 (-5.81)	|47 (-4.46)|
@@ -82,17 +82,18 @@ The OPUS-SSF lookup tables are hosted on [Baidu Drive](https://xxx) with passwor
 
 ```
 MongoDB v3.6.12
-Python 3.6
+Python v3.6
 pymongo v3.7.1
 ```
 
 ## Usage
 
-1. Download the lookup tables you need, then import them into your MongoDB. For example, you can use following scripts to import the lookup table with segments of 5 in length.
+1. Download the lookup tables you need and import them into your MongoDB. Then, create index. For example, you can use following scripts to import and index the csf lookup table with segments of 5 in length.
 
 ```
-mongoimport -d csf2_cpp_db -c csf2_cpp_5 --file your_path\csf2_cpp_5.dat --type json
-db.csf2_cpp_5.ensureIndex({"key":1},{"unique":true})
+mongoimport -d csf_db -c csf_5 --file your_path\csf_5.dat --type json
+use csf_db
+db.csf_5.ensureIndex({"key":1},{"unique":true}
 ```
 
 2. Install pymongo.
@@ -101,7 +102,7 @@ db.csf2_cpp_5.ensureIndex({"key":1},{"unique":true})
 pip install pymongo
 ```
 
-3. Set the parameters in *main.py* including `scoring_function` you would use and its corresponding *database name* and *collections name* in your MongoDB.
+3. Set the parameters in *main.py* including `scoring_function` you would use and its corresponding `database_name` and `collections_name` in your MongoDB.
 
 4. Run *main.py*.
 
