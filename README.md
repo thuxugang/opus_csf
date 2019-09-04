@@ -72,11 +72,11 @@ The results of OPUS-CSF, OPUS-SSF and OPUS-DASF on 5 decoy sets. The numbers of 
 
 To generate the four lookup tables (containing segments of 5, 7, 9, and 11 residues in length) in each method, we downloaded the entire PDB which contains 150,742 structures from `ftp://ftp.wwpdb.org/pub/pdb/data/structures/divided/pdb` on May 10, 2019, and removed the structures in the test decoy sets.
 
-The OPUS-CSF lookup tables are hosted on [Baidu Drive](https://xxx) with password `xxx`.
+The OPUS-CSF lookup tables are hosted on [Baidu Drive](https://pan.baidu.com/s/1OPDXv2y4C67KyN60Wk3X0w) with password `yqyy`.
 
-The OPUS-DASF lookup tables are hosted on [Baidu Drive](https://xxx) with password `xxx`.
+The OPUS-DASF lookup tables are hosted on [Baidu Drive](https://pan.baidu.com/s/1JmqS9T0kyRUqyeY-i3Pxdg ) with password `zw80`.
 
-The OPUS-SSF lookup tables are hosted on [Baidu Drive](https://xxx) with password `xxx`.
+The OPUS-SSF lookup tables are hosted on [Baidu Drive](https://pan.baidu.com/s/1pqIJYjfq-kCi2f5gwL4SZQ) with password `9183`.
 
 ## Dependency
 
