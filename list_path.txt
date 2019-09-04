@@ -1,0 +1,2 @@
+./example/1a19.pdb
+./example/1a32.pdb

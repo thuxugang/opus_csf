@@ -1,0 +1,11 @@
+Using Scoring Function:  csf
+./example/1a19.pdb 26893.3511108
+./example/1a32.pdb 4493.85444315
+
+Using Scoring Function:  dasf
+./example/1a19.pdb 8676.08059017
+./example/1a32.pdb 2914.97198185
+
+Using Scoring Function:  ssf
+./example/1a19.pdb 26993.5608651
+./example/1a32.pdb 4163.46926124
