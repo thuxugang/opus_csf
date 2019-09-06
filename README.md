@@ -93,7 +93,7 @@ pymongo v3.7.1
    ```
    mongoimport -d csf_db -c csf_5 --file your_path\csf_5.dat --type json
    use csf_db
-   db.csf_5.ensureIndex({"key":1},{"unique":true}
+   db.csf_5.ensureIndex({"key":1},{"unique":true})
    ```
 
 2. Install pymongo.
