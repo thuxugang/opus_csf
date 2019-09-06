@@ -90,17 +90,17 @@ pymongo v3.7.1
 
 1. Download the lookup tables you need and import them into your MongoDB. Then, create index. For example, you can use following scripts to import and index the csf lookup table with segments of 5 in length.
 
-```
-mongoimport -d csf_db -c csf_5 --file your_path\csf_5.dat --type json
-use csf_db
-db.csf_5.ensureIndex({"key":1},{"unique":true}
-```
+   ```
+   mongoimport -d csf_db -c csf_5 --file your_path\csf_5.dat --type json
+   use csf_db
+   db.csf_5.ensureIndex({"key":1},{"unique":true}
+   ```
 
 2. Install pymongo.
 
-```
-pip install pymongo
-```
+   ```
+   pip install pymongo
+   ```
 
 3. Set the parameters in *main.py* including `scoring_function` you would use and its corresponding `database_name` and `collections_name` in your MongoDB.
 
