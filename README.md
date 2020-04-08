@@ -74,7 +74,7 @@ To generate the four lookup tables (containing segments of 5, 7, 9, and 11 resid
 
 The OPUS-CSF lookup tables are hosted on [Baidu Drive](https://pan.baidu.com/s/1OPDXv2y4C67KyN60Wk3X0w) with password `yqyy`. Also, they can be downloaded directly from [Here](http://ma-lab.rice.edu/dist/csf_lookup_tables.zip).
 
-The OPUS-DASF lookup tables are hosted on [Baidu Drive](https://pan.baidu.com/s/1JmqS9T0kyRUqyeY-i3Pxdg ) with password `zw80`. Also, they it can be downloaded directly from [Here](http://ma-lab.rice.edu/dist/dasf_lookup_tables.zip).
+The OPUS-DASF lookup tables are hosted on [Baidu Drive](https://pan.baidu.com/s/1JmqS9T0kyRUqyeY-i3Pxdg ) with password `zw80`. Also, they can be downloaded directly from [Here](http://ma-lab.rice.edu/dist/dasf_lookup_tables.zip).
 
 The OPUS-SSF lookup tables are hosted on [Baidu Drive](https://pan.baidu.com/s/1pqIJYjfq-kCi2f5gwL4SZQ) with password `9183`. Also, they can be downloaded directly from [Here](http://ma-lab.rice.edu/dist/ssf_lookup_tables.zip).
 
